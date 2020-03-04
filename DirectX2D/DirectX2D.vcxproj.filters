@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\System">
+      <UniqueIdentifier>{19539ff1-ccda-4452-afb3-ae13c009c411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine">
+      <UniqueIdentifier>{a782adcb-7468-491d-8f23-92d943d642d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game">
+      <UniqueIdentifier>{28b38051-9cb3-414d-ad1d-ee1919178865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{9447291a-78b0-4317-8edd-a7411b3eb0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine">
+      <UniqueIdentifier>{5d82ad8d-ccc1-4f80-a4cb-54ebfbd2a011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{6fbf5daf-fffa-4272-b446-440401c61911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\Scene">
+      <UniqueIdentifier>{4e4412d0-50d2-4512-82f3-5227402a41c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Scene">
+      <UniqueIdentifier>{db10f6d2-d242-41e6-9c6c-1515bded6f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\MainScene">
+      <UniqueIdentifier>{dfc218b5-4327-4418-a770-d398bfa60fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\MainScene">
+      <UniqueIdentifier>{1eedc0e4-8d69-4e83-b2e2-352ac6dd5436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Stage">
+      <UniqueIdentifier>{2d1d0c8e-8d5a-484e-bf6d-644362e5c4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Stage">
+      <UniqueIdentifier>{39235ecd-7d0d-469e-ba02-366604739c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Stage\Block">
+      <UniqueIdentifier>{35505c0c-f1fd-4ed9-bd5a-fd4d13d25e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Stage\Block">
+      <UniqueIdentifier>{fed0f841-9f63-4c26-be9f-c9b0f63465d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Stage\Player">
+      <UniqueIdentifier>{1b297644-c7ab-44c9-b699-b0641d0838c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Stage\Player">
+      <UniqueIdentifier>{5cc8dd55-f0df-4cad-868b-d5739c45e8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Stage\Player\PlayerCntrl">
+      <UniqueIdentifier>{3e9a265e-63f1-4200-a5d0-7bd92d1d3e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\Stage\Player\PlayerCntrl">
+      <UniqueIdentifier>{f6ad23a3-0fb9-47e0-82a6-01d23a8b7e26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX2D.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerSort.cpp">
+      <Filter>소스 파일\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManagement.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>소스 파일\Game\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManagement.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptAble.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManagement.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCntrl.cpp">
+      <Filter>소스 파일\Game\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>소스 파일\Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedBlock.cpp">
+      <Filter>소스 파일\Game\Stage\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingBlock.cpp">
+      <Filter>소스 파일\Game\Stage\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>소스 파일\Game\Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Snowball.cpp">
+      <Filter>소스 파일\Game\Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCntrl.cpp">
+      <Filter>소스 파일\Game\Stage\Player\PlayerCntrl</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnim.cpp">
+      <Filter>소스 파일\Game\Stage\Player\PlayerCntrl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System.h">
+      <Filter>헤더 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>헤더 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerSort.h">
+      <Filter>헤더 파일\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManagement.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>헤더 파일\Game\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManagement.h">
+      <Filter>헤더 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptAble.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManagement.h">
+      <Filter>헤더 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCntrl.h">
+      <Filter>헤더 파일\Game\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>헤더 파일\Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>헤더 파일\Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedBlock.h">
+      <Filter>헤더 파일\Game\Stage\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingBlock.h">
+      <Filter>헤더 파일\Game\Stage\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>헤더 파일\Game\Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Snowball.h">
+      <Filter>헤더 파일\Game\Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCntrl.h">
+      <Filter>헤더 파일\Game\Stage\Player\PlayerCntrl</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnim.h">
+      <Filter>헤더 파일\Game\Stage\Player\PlayerCntrl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
