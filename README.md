@@ -1,4 +1,4 @@
-# MimePark
+# PenguinGround
 ## 개요
 <img src ="/ReadmeIMG/펭귄그라운드_Main.PNG" width="400px"></img>   
 <img src ="/ReadmeIMG/펭귄그라운드_게임.PNG" width="400px"></img>   
